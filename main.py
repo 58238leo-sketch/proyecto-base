@@ -5,6 +5,12 @@ def main():
     op.leerNumeros()
     op.sumar()
     op.mostrarResultado()
+    op.resta()
+    op.mostrarResultado()
+    op.multi()
+    op.mostrarResultado()
+    op.division()
+    op.mostrarResultado()
     
     #Realiza las pruebas con las nuevas operaciones
     
