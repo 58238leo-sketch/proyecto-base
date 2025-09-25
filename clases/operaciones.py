@@ -26,10 +26,18 @@ class Operaciones:
         self.resultado = "La suma de " + str(self.num1) + " + " + str(self.num2) + " es igula a " + str(self.num1 + self.num2)
 
     #operación de restar
+    def resta(self):
+        self.resultado ="La resta de " + str(self.num1) + " - " + str(self.num2) + " es igual a " + str(self.num1 - self.num2)
 
-    #operación de restar
+    #operación de multiplicacion
+    def multi(self):
+        self.resultado ="La multiplicacion de " + str(self.num1) + " * " + str(self.num2) + " es igual a " + str(self.num1 * self.num2)
 
-    #operación de restar
+
+
+    #operación de division
+    def division(self):
+        self.resultado ="La division de " + str(self.num1) + " / " + str(self.num2) + " es igual a " + str(self.num1 / self.num2)
     
     def mostrarResultado(self):
         print(self.resultado)
